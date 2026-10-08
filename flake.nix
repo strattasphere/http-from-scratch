@@ -28,6 +28,7 @@
         export PATH=$PATH:$GOPATH/bin
         eval "$(starship init bash)"
         export STARSHIP_CONFIG=$PWD/starship.toml
+        go install golang.org/x/tools/cmd/goimports@latest
       '';
     };
       
