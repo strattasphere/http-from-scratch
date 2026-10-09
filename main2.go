@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func main() {
+func _main2() {
 	f, err := os.Open("messages2.txt")
 	if err != nil {
 		log.Fatal("error", "error", err)
@@ -37,4 +37,5 @@ func main() {
 	if len(str) != 0 {
 		fmt.Printf("str: %s", str)
 	}
+
 }
